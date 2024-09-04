@@ -3,7 +3,7 @@ syntax = "proto3";
 package logistics;
 
 // Opción para generar el código Go
-option go_package = "github.com/FelipeMarchantVargas/SD-Lab1/proto/logistics";
+option go_package = "proto/logistics";
 
 // Importa el tipo Empty de Google Protobuf
 import "google/protobuf/empty.proto";
